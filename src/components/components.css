@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    height: auto;
+    background-color: #1A1B41;
+    position: sticky;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    font-family: "Montserrat";
+    font-weight: bolder;
+    font-size: 30px;
+    justify-content: space-around;
+    color: #BAFF29;
+}
+
+input{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #333;
+    color: white;
+    font-family: "Montserrat";
+}
+
+input:hover{
+    border: 1px solid #BAFF29;
+}
+
+i{
+    width: 50px;
+    margin: 0;
+}
+
+.fa-solid fa-magnifying-glass{
+    font-size: 20px;
+}
+
+.fa-duotone fa-solid fa-pen-ruler{
+    font-size: 30px;
+}
+
+footer {
+    background-color: #161616;
+    color: #AAAAAA;
+    height: 74px;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: auto;
+    font-weight: 500;
+    width: 100%;
+}
+
+.userimg {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
