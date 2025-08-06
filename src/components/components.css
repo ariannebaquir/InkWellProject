@@ -27,16 +27,12 @@ input:hover{
     border: 1px solid #BAFF29;
 }
 
-i{
-    width: 50px;
-    margin: 0;
-}
-
-.fa-solid fa-magnifying-glass{
+.center i.fa-magnifying-glass{
     font-size: 20px;
+    margin-right: 15px;
 }
 
-.fa-duotone fa-solid fa-pen-ruler{
+.site-name i.fa-pen-ruler{
     font-size: 30px;
 }
 
@@ -59,4 +55,8 @@ footer {
     border-radius: 50%;
     object-fit: cover;
     cursor: pointer;
+}
+
+.userimg:hover{
+    border: 2px solid #BAFF29;
 }
